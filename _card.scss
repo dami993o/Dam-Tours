@@ -1,0 +1,59 @@
+.card{
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 50rem;
+    
+
+
+    }
+
+.card_side{
+    
+    height: 50rem;
+    transition: all .13s linear;
+    position: absolute;
+    //top: 0;
+    //left:0;
+    width: 100%;
+    transform-style: preserve-3d;
+    
+    
+    
+    
+    
+}
+    
+
+    .card_side--front:hover {
+        transform: rotateY(180deg);
+        
+    }
+
+    .card_side--back:hover {
+        transform: rotateY(180deg);
+        
+    }
+
+    .card_side--front{
+        background-color:blue;
+        z-index: 2;
+        backface-visibility:hidden;
+        
+        
+        
+        
+        
+    }
+
+    .card_side--back{
+        background-color:green;
+        transform: rotateY(0deg);
+        z-index: 1;
+        backface-visibility: hidden;
+        
+        
+        
+        
+    }
+
