@@ -1,0 +1,38 @@
+.section-about{
+
+    background-color: $color-grey-light-1;
+    padding: 25rem 0;
+    margin-top: -20vh;
+}
+
+.section-features{
+    padding: 25rem 0;
+    background-image: linear-gradient( hsla(111, 29%, 31%, 0.801), hsla(137, 27%, 23%, 0.769)), url(../img/nat-4.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin-top: 10rem;
+      clip-path: polygon(100% 0, 100% 80%, 0% 100%, 0 20%);
+
+    
+    
+}
+
+    
+    
+    
+    
+    
+    
+    
+
+
+.section-tours{
+
+    background-color: $color-grey-light-1;
+    padding: 20rem 0;
+    margin-top: -10rem;
+    
+    
+    
+
+}

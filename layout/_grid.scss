@@ -1,0 +1,118 @@
+.row {
+
+    max-width: $grid-width;
+    
+    margin: 0 auto;
+    margin-bottom:$gutter-vertical;
+
+    &:not(:last-child)  {
+
+        margin-bottom:$gutter-vertical;
+    }
+
+}
+
+
+
+.col-1-of-2{
+
+    width: calc((100% - #{$gutter-vertical} ) / 2);
+    
+    float: left;
+    margin-left: auto;
+}
+
+
+    
+    .col-1-of-2:not(:last-child) {
+        margin-right: $gutter-vertical;
+    
+}
+
+.col-1-of-4{
+
+    width: calc((100% - #{$gutter-vertical} ) / 4);
+    
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+    background-color: rgba(255, 255, 255, 0.877);
+    font-size: 1.0rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem #000;
+    transition: transform .3s;
+
+    &:hover{
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+
+
+
+
+}
+
+    
+    .icon-basic-world{
+        font-size: 4rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+    background-image: linear-gradient(hsla(112, 60%, 36%, 0.801), hsla(136, 30%, 27%, 0.769));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+
+
+    }
+
+    .icon-basic-compass{
+        font-size: 4rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+    background-image: linear-gradient(hsla(112, 60%, 36%, 0.801), hsla(136, 30%, 27%, 0.769));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    }
+
+    .icon-basic-map{
+        font-size: 4rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+    background-image: linear-gradient(hsla(112, 60%, 36%, 0.801), hsla(136, 30%, 27%, 0.769));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    }
+
+
+    .icon-basic-cards-hearts{
+        font-size: 4rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+    background-image: linear-gradient(hsla(112, 60%, 36%, 0.801), hsla(136, 30%, 27%, 0.769));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    }
+
+    
+.col-1-of-3{
+
+    width: calc((100% - #{$gutter-vertical} ) / 3);
+    
+    float: left;
+    margin-left: 2.5rem;
+    
+
+}
+
+
+//.col-1-of-3{
+    //width: calc(()100% -2 * #{$gutter-horizontal}) / 3);
+//}
